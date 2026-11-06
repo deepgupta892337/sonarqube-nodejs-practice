@@ -14,3 +14,7 @@ const total = calculateTotal(100, 3);
 
 console.log(greetUser("Developer"));
 console.log("Total amount:", total);
+
+function calculateDiscount(price) {
+    return price - (price * 0.10);
+}
