@@ -22,3 +22,8 @@ console.log("Total amount:", total);
 function calculateDiscount(price) {
     return price - (price * 0.10);
 }
+
+function testUnusedVariable() {
+    const unusedValue = 100;
+    console.log("Testing SonarQube");
+}
